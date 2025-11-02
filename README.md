@@ -1,4 +1,4 @@
-# 🔥 Fire Extinguisher Detectio
+# 🔥 Fire Extinguisher Detection
 
 This repository contains an end-to-end computer vision project to detect fire extinguishers using a YOLOv8 object detection model.
 
