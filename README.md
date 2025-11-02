@@ -8,7 +8,7 @@ This repository contains an end-to-end computer vision project to detect fire ex
 
 Here is the final model successfully identifying fire extinguishers in a test image it had never seen before.
 
-![Demo Image](demo_files/final_result.jpg)
+![Demo Image](demo_files/test_image.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ The task was to build a complete pipeline to detect fire extinguishers on campus
 ### Deliverables Checklist
 - [x] **Custom Dataset:** A collection of 105 original images of fire extinguishers.
 - [x] **Preprocessing Pipeline:** Augmentations applied via Roboflow to create a robust dataset.
-- [x] **Model Training Notebook:** A Google Colab notebook (`notebooks/fire_extinguisher_detector.ipynb`) showing the entire process.
+- [x] **Model Training Notebook:** A Google Colab notebook (`notebooks/Fire_extinguisher_detector.ipynb`) showing the entire process.
 - [x] **Evaluation Report:** Metrics and graphs showing the model's high performance.
 - [x] **Inference Demo:** The model successfully running on a new, unseen test image.
 
@@ -44,7 +44,7 @@ The foundation of this project is a custom dataset collected from my hostel and 
 ## 🤖 Model & Training
 
 ### Model
-I used **YOLOv8n** (the "nano" version) by Ultralytics. I chose this model because it offers an excellent balance of high speed and strong accuracy, making it perfect for potential real-time applications. The model was fine-tuned on the custom dataset for **50 epochs**.
+I used **YOLOv8n** (the "nano" version) by Ultrallitics. I chose this model because it offers an excellent balance of high speed and strong accuracy, making it perfect for potential real-time applications. The model was fine-tuned on the custom dataset for **50 epochs**.
 
 ### Training Environment
 * **Platform:** Google Colab
@@ -67,7 +67,7 @@ The final **mAP50-95 score of 0.743** shows that the model is highly accurate an
 ---
 
 ## ⚙️ How to Run
-All code for training and inference is contained in the `notebooks/fire_extinguisher_detector.ipynb` notebook.
+All code for training and inference is contained in the `notebooks/Fire_extinguisher_detector.ipynb` notebook.
 
 1.  **Clone the repository:**
     ```bash
