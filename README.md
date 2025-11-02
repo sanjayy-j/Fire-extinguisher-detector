@@ -1,4 +1,4 @@
-# 🔥 Fire Extinguisher Detection
+# 🔥 Fire Extinguisher Detectio
 
 This repository contains an end-to-end computer vision project to detect fire extinguishers using a YOLOv8 object detection model.
 
@@ -8,7 +8,7 @@ This repository contains an end-to-end computer vision project to detect fire ex
 
 Here is the final model successfully identifying fire extinguishers in a test image it had never seen before.
 
-![Demo Image](demo_files/test_image.jpg)
+![test_image](https://github.com/user-attachments/assets/403bf1d8-b913-4279-9160-65a6b3979052)
 
 ---
 
@@ -58,7 +58,7 @@ The model trained successfully and achieved excellent performance metrics on the
 
 The final **mAP50-95 score of 0.743** shows that the model is highly accurate and confident in its predictions.
 
-![Training Results Graph](results/results.png)
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/5e699d69-af9c-4ea4-bb62-7a4683b680cf" />
 
 * **mAP50-95 (Primary Metric):** **0.743**
 * **Precision:** **0.992** (When it predicts an extinguisher, it's 99.2% correct)
